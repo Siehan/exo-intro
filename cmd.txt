@@ -40,7 +40,8 @@ If you want to show hidden files in the particular directory then you can use ls
 
 Si vous souhaitez afficher les fichiers cachés dans le répertoire particulier, vous pouvez utiliser la commande ls -a pour afficher les fichiers cachés dans le répertoire particulier.
 
-
+ls -filah
+Compte le nombre de fichiers
 
 PLUS DE COMMANDE LINUX
 
