@@ -3,49 +3,67 @@ COMMANDES LINUX
 cd
 If you want to change directory from the Terminal then you can use cd (change directory) command in your terminal.
 
-Si vous souhaitez changer de répertoire à partir du Terminal, vous pouvez utiliser la commande cd (changer de répertoire) dans votre terminal.
+Si vous souhaitez changer de répertoire à partir du Terminal, vous pouvez utiliser la commande cd (changer de répertoire)
+dans votre terminal.
 
 mkdir
-If you want to create a folder through Terminal then you can use mkdir for creating directory or folder. This is a much faster way than creating a folder through the user interface.
+If you want to create a folder through Terminal then you can use mkdir for creating directory or folder.
+This is a much faster way than creating a folder through the user interface.
 
-Si vous souhaitez créer un dossier via le terminal, vous pouvez utiliser mkdir pour créer un répertoire ou un dossier. C'est un moyen beaucoup plus rapide que de créer un dossier via l'interface utilisateur.
+Si vous souhaitez créer un dossier via le terminal, vous pouvez utiliser mkdir pour créer un répertoire ou un dossier.
+C'est un moyen beaucoup plus rapide que de créer un dossier via l'interface utilisateur.
 
 pwd
 The pwd command shows the current working directory.
-
-La commande pwd affiche le répertoire de travail actuel.
+La commande pwd affiche le répertoire de travail en cours.
 
 touch
-The touch command is used for creating a particular text file DOC file or any text file using the terminal. For example, I have entered touch space filename.txt then I entered then the text field is got created this is the fastest way from creating text file from the user interface.
+The touch command is used for creating a particular text file DOC file or any text file using the terminal.
+For example, I have entered touch (space) filename.txt then (Enter key), then the text field is got created.
+This is the fastest way from creating text file from the user interface.
 
-La commande tactile est utilisée pour créer un fichier texte particulier, un fichier DOC ou tout autre fichier texte à l'aide du terminal. Par exemple, j'ai entré le nom de fichier de l'espace tactile.txt, puis je l'ai entré, puis le champ de texte est créé. C'est le moyen le plus rapide de créer un fichier texte à partir de l'interface utilisateur.
+La commande touch est utilisée pour créer un fichier texte particulier, un fichier DOC ou tout autre
+fichier texte à l'aide du terminal.
+Par exemple : je tape touch (espace) lenomdufichier.txt puis (Enter) et le fichier est créé.
+C'est le moyen le plus rapide de créer un fichier texte à partir de l'interface utilisateur.
 
 ls
-This command is used to list files available in your Linux operating system. If you are in the root folder then you can type ls command in your terminal. you will see list of the files available in the root folder. For example: as you see in the image below, I have entered ls command. it is showing currently available files in my root folder.
+This command is used to list files available in your operating system.
+If you are in the root folder then you can type ls command in your terminal.
+You will see list of the files available in the root folder.
+For example: I have entered ls command it is showing currently available files in my root folder.
 
-Cette commande est utilisée pour lister les fichiers disponibles dans votre système d'exploitation Linux. Si vous êtes dans le dossier racine, vous pouvez taper la commande ls dans votre terminal. Vous verrez la liste des fichiers disponibles dans le dossier racine.
+Cette commande est utilisée pour lister les fichiers disponibles dans votre système d'exploitation.
+Si vous êtes dans le dossier racine, vous pouvez taper la commande ls dans votre terminal.
+Vous verrez la liste des fichiers disponibles dans le dossier racine.
 
 clear
-Clear command is used to clear the uncluttered data from the terminal. for example, as you can see in the below image there are multiple data on the terminal after putting clear command the terminal got cleared and as you can see terminal is showing a very clear way.
+Clear command is used to clear the uncluttered data from the terminal.
+If I have multiple data on it, I use the clear command and the terminal got cleared.
 
-La commande Clear est utilisée pour effacer les données épurées du terminal. Par exemple, comme vous pouvez le voir dans l'image ci-dessous, il y a plusieurs données sur le terminal après avoir mis la commande d'effacement, le terminal a été effacé et comme vous pouvez le voir, le terminal montre une manière très claire.
+La commande clear est utilisée pour effacer les données du terminal.
+Il suffit de l'utiliser et votre terminal est tout propre.
 
 ping
-Ping command is used for networking purpose. By using ping command you can see whether the particular host in reachable from your PC.
+Ping command is used for networking purpose.
+By using ping command you can see whether the particular host in reachable from your computor.
 
-La commande Ping est utilisée à des fins de mise en réseau. En utilisant la commande ping, vous pouvez voir si l'hôte particulier est accessible depuis votre PC.
+La commande Ping est utilisée à des fins de mise en réseau.
+En utilisant la commande ping, vous pouvez voir si l'hôte particulier est accessible depuis votre ordinateur.
 
 ls -a
-If you want to show hidden files in the particular directory then you can use ls -a command to show hidden files in the particular directory.
+If you want to show hidden files in a particular directory then you can use ls -a command to show it.
 
-Si vous souhaitez afficher les fichiers cachés dans le répertoire particulier, vous pouvez utiliser la commande ls -a pour afficher les fichiers cachés dans le répertoire particulier.
+Si vous souhaitez afficher les fichiers cachés d'un répertoire particulier,
+vous pouvez utiliser la commande ls -a pour les voir.
 
 ls -filah
+Count the number of files
 Compte le nombre de fichiers
 
-PLUS DE COMMANDE LINUX
+PLUS DE COMMANDES LINUX
 
-Command	Description
+Command Description
 cat [filename]	Display file’s contents to the standard output device
 (usually your monitor).
 cd /directorypath	Change to directory.
@@ -73,14 +91,18 @@ mv [options] source destination	Rename or move file(s) or directories.
 
 SUDO QUI ES-TU?
 
-La commande sudo procure un moyen sûr et simple de configurer une escalade de privilèges, par exemple, permettre à des utilisateurs normaux d'exécuter certaines (ou toutes les) commandes en tant que root ou au nom d'un autre utilisateur, sans qu'ils aient à connaître le mot de passe de l'utilisateur auquel ils se substituent.
+La commande sudo procure un moyen sûr et simple de configurer une escalade de privilèges.
+Par exemple, permettre à des utilisateurs normaux d'exécuter certaines (ou toutes les) commandes en tant que root
+ou au nom d'un autre utilisateur, sans qu'ils aient à connaître le mot de passe de l'utilisateur auquel ils se substituent.
 
-Lorsque vous voulez que certaines personnes accomplissent certaines tâches administratives sans leur donner un accès total en tant que root, utiliser sudo est la meilleure option.
+Lorsque vous voulez que certaines personnes accomplissent certaines tâches administratives sans leur donner un accès total
+en tant que root, utiliser sudo est la meilleure option.
 En effet, sudo permet de contrôler qui peut faire quoi…
 Sudo a l'avantage sur su de ne pas nécessiter la mémorisation d'un mot de passe supplémentaire.
 De plus il permet de retirer des droits à une personne.
 
-Le principe de sudo est simple, toute commande tapée derrière sudo est exécutée en tant qu'utilisateur root (par défaut) si le droit vous en a été donné.
+Le principe de sudo est simple, toute commande tapée derrière sudo est exécutée en tant qu'utilisateur root (par défaut)
+si le droit vous en a été donné.
 Ceci est vérifié après vous avoir demandé votre mot de passe pour une vérification complémentaire de votre identité.
 Celui-ci vous sera redemandé une fois de temps en temps.
 Sudo signale automatiquement à l'administrateur lorsque quelqu'un tente de l'utiliser sans disposer de droit pour le faire.
